@@ -6,7 +6,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/root/xmrig-proxy/build/xmrig-proxy -l proxy.log -r 2 -R 1 --donate-level 0 --http-host 172.107.205.185 --http-port 4444 --api-worker-id Proxy --http-access-token 123456 --http-no-restricted -b 0.0.0.0:3333 -o pool.supportxmr.com:5555 -u 47ej8WHYtGy8nwKRJtiiZkSjrCfUXzJtKbNvabGGnGVp6PnFRHev9gmFiVNEdF47m32i8qsVPeDNpjXuV1jzr1vZ9Up62DB --algo=rx/0 -p Proxy -k
+ExecStart=/root/xmrig-proxy-6.15.0/xmrig-proxy -l proxy.log -r 2 -R 1 --donate-level 0 --http-host 172.107.205.185 --http-port 4444 --api-worker-id Proxy --http-access-token 123456 --http-no-restricted -b 0.0.0.0:3333 -o pool.supportxmr.com:5555 -u 47ej8WHYtGy8nwKRJtiiZkSjrCfUXzJtKbNvabGGnGVp6PnFRHev9gmFiVNEdF47m32i8qsVPeDNpjXuV1jzr1vZ9Up62DB --algo=rx/0 -p Proxy -k
 
 [Install]
 WantedBy=multi-user.target
