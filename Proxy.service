@@ -1,3 +1,10 @@
+nano /etc/systemd/system/Proxy.service
+
+[Unit]...
+
+systemctl enable Proxy
+systemctl start Proxy 
+
 [Unit]
 Description=Proxy
 
